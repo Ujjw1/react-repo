@@ -1,0 +1,45 @@
+.field-library {
+  width: 20%;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+  background-color: #f4f4f9;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.field-library h3 {
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.field-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.field-button:active {
+  background-color: #388e3c; /* Even darker green on click */
+}
+
+.field-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(76, 175, 80, 0.6);
+}
